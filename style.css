@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  font-family: 'Ubuntu';
+}
+
+.dice {
+  width: 8.5vw;
+  height: 8.5vw;
+  background: lightblue;
+  border-radius: 20px;
+  border: 3px solid black;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.container {
+  display: inline-block;
+  margin: 0 6.4vw;
+}
+
+.bigcontainer {
+  margin: 0 6.4vw;
+}
+
+html {
+  background-color: #3F5866;
+}
+
+#player, #p1score, #p2score, #p1temp, #p2temp {
+  text-align: center;
+}
+
+.btn {
+  color: lightblue;
+  font-size: 1.5em;
+  background-color: #FFF;
+  width: 20vw;
+  height: 5vw;
+  margin: 1vw 0;
+}
+
+#player {
+  margin-bottom: 5vw;
+  font-size: 3em;
+}
+
+h4 {
+  text-align: center;
+  color: lightblue;
+}

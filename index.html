@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Dice Game</title>
+</head>
+
+<body>
+  <h1 id="player"></h1>
+
+  <div class="bigcontainer">
+    <div class="container">
+      <div class="dice">
+        <h1 id="p1roll"></h1>
+      </div>
+      <h2 id="p1score"></h2>
+      <h2 id="p1temp"></h2>
+    </div>
+    <div class="container">
+      <button class="btn" type="button" name="button" onclick="rollPlayer()">ROLL</button>
+      <br>
+      <button class="btn" type="button" name="button" onclick="holdPlayer()">HOLD</button>
+    </div>
+    <div class="container">
+      <div class="dice">
+        <h1 id="p2roll"></h1>
+      </div>
+      <h2 id="p2score"></h2>
+      <h2 id="p2temp"></h2>
+    </div>
+  </div>
+  <h4>The name of this game is called Pig. The rules are:<br><br>
+
+    1. First player to 100 points wins <br> 2. Points are earned by rolling dice <br>
+    3. Each person can roll the dice as many times as they want to score points, however if they roll a 1, their score for that turn automatically sets to 0. For example, if I rolled a 6 and a 4, my score would be 10 points for that round if I
+    choose to cash the points in. You ideally want to stack up as many points as possible without rolling a 1. <br>
+    4. There's a roll and hold option, so that is pretty self-explanatory. <br><br>
+
+    Have fun!</h4>
+
+</body>
+<script src="script.js" charset="utf-8"></script>
+
+</html>
