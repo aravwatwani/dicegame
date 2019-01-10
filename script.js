@@ -39,7 +39,7 @@ function rollPlayer() {
     }
     document.getElementById("p2roll").innerHTML = p2roll;
   }
-    gameWin();
+  gameWin();
 }
 
 var p1 = "player 1";
@@ -61,7 +61,7 @@ function holdPlayer() {
     document.getElementById("p2score").innerHTML = "Score: " + p2score;
     document.getElementById("player").innerHTML = p1;
   }
-    gameWin();
+  gameWin();
 }
 
 function gameWin() {
