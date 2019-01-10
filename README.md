@@ -1,4 +1,4 @@
-# dicegame
+# dice game
 our dice game!
 
 the name of this game is called pig. the rules are:
