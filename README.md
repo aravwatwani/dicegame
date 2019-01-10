@@ -9,3 +9,5 @@ the name of this game is called pig. the rules are:
 4. theres a roll and hold option, pretty self-explanatory.
 
 have fun!
+
+https://aravwatwani.github.io/dicegame/
